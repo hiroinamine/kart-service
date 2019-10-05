@@ -1,9 +1,9 @@
 
 Kart-Service  
 ======  
-  
-[![Build Status](https://travis-ci.org/test)](https://travis-ci.org/test)  
-  
+
+[![Build Status](https://travis-ci.com/hiroinamine/kart-service.svg?branch=master)](https://travis-ci.com/hiroinamine/kart-service)
+
 API de Serviço de kart para coleta de resultados.  
   
 ### Desenvolvimento  
