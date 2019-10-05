@@ -1,0 +1,14 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# https://www.playframework.com/documentation/latest/ScalaRouting
+# ~~~~
+
+# Application status
+GET     /                                   controllers.StatusController.get
+
+# Manages the race
+POST    /races                               controllers.RaceController.create
+GET     /races/:id                           controllers.RaceController.get(id: String)
+GET     /races/:id/fastest_lap               controllers.RaceController.fastestLap(id: String)
+GET     /races/:id/drivers/fastest_lap       controllers.RaceController.fastestLapByDriver(id: String)
+GET     /races/:id/drivers/average_speed     controllers.RaceController.averageSpeedByDriver(id: String)
